@@ -14,5 +14,11 @@
   ],
   "require": {
     "symfony/polyfill-php83": "^1.29.0"
-  }
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/symfony/polyfill-php83"
+    }
+  ]
 }
