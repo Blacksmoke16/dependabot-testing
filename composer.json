@@ -13,6 +13,6 @@
     }
   ],
   "require": {
-    "symfony/polyfill-php83": "^1.29"
+    "symfony/polyfill-php83": "^1.29.0"
   }
 }
