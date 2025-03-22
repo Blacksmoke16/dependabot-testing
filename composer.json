@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "symfony/polyfill-php83": "^1.29.0"
+    "symfony/polyfill-php83": "~1.29.0"
   },
   "repositories": [
     {
