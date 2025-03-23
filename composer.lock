@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b2ec6aa98338a839a88cc524a6315a1f",
+    "content-hash": "b6fd9765fcf2257175c5c482859f72a1",
     "packages": [
         {
             "name": "symfony/polyfill-php82",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php82.git",
-                "reference": "3b74e8c257ff32ddebbe430165a38629c42b1e8c"
+                "reference": "77ff49780f56906788a88974867ed68bc49fae5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/3b74e8c257ff32ddebbe430165a38629c42b1e8c",
-                "reference": "3b74e8c257ff32ddebbe430165a38629c42b1e8c",
+                "url": "https://api.github.com/repos/symfony/polyfill-php82/zipball/77ff49780f56906788a88974867ed68bc49fae5b",
+                "reference": "77ff49780f56906788a88974867ed68bc49fae5b",
                 "shasum": ""
             },
             "require": {
@@ -84,7 +84,14 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "package": "symfony/polyfill-php82",
+            "version": "1.9999999.9999999.9999999-dev",
+            "alias": "1.30.0",
+            "alias_normalized": "1.30.0.0"
+        }
+    ],
     "minimum-stability": "stable",
     "stability-flags": {
         "symfony/polyfill-php82": 20

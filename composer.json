@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "symfony/polyfill-php82": "1.x-dev#3b74e8c257ff32ddebbe430165a38629c42b1e8c"
+    "symfony/polyfill-php82": "1.x-dev#77ff49780f56906788a88974867ed68bc49fae5b as 1.30.0"
   },
   "repositories": [
     {
