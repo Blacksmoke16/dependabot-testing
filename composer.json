@@ -13,7 +13,7 @@
     }
   ],
   "require": {
-    "symfony/polyfill-php83": "1.29.0"
+    "symfony/polyfill-php83": "1.x-dev#4647bfa0d26a05ad2a936667c70986b5c5933517"
   },
   "repositories": [
     {
