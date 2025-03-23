@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "71e5374ebf636c46457806892368e857",
+    "content-hash": "b2ec6aa98338a839a88cc524a6315a1f",
     "packages": [
         {
             "name": "symfony/polyfill-php82",
@@ -27,22 +27,21 @@
             "type": "library",
             "extra": {
                 "thanks": {
-                    "url": "https://github.com/symfony/polyfill",
-                    "name": "symfony/polyfill"
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
-                "files": [
-                    "bootstrap.php"
-                ],
                 "psr-4": {
                     "Symfony\\Polyfill\\Php82\\": ""
                 },
+                "files": [
+                    "bootstrap.php"
+                ],
                 "classmap": [
                     "Resources/stubs"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -69,16 +68,16 @@
             },
             "funding": [
                 {
-                    "url": "https://symfony.com/sponsor",
-                    "type": "custom"
+                    "type": "github",
+                    "url": "https://github.com/fabpot"
                 },
                 {
-                    "url": "https://github.com/fabpot",
-                    "type": "github"
+                    "type": "tidelift",
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony"
                 },
                 {
-                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
-                    "type": "tidelift"
+                    "type": "custom",
+                    "url": "https://symfony.com/sponsor"
                 }
             ],
             "time": "2024-09-09T11:45:10+00:00"
